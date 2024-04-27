@@ -1,0 +1,21 @@
+.dental-chart {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Styles for each tooth component */
+.back-tooth,
+.front-tooth {
+  flex: 0 0 calc(20% - 10px); /* 20% width with some spacing between elements */
+  margin: 5px; /* Adjust spacing between elements */
+}
+
+/* Additional styles for back tooth */
+.back-tooth {
+  /* Add specific styles for back tooth if needed */
+}
+
+/* Additional styles for front tooth */
+.front-tooth {
+  /* Add specific styles for front tooth if needed */
+}
